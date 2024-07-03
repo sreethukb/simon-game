@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: #FEF2BF;
+}
+
+.rules{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  3%;
+  color: #FEF2BF;
+}
+
+.rule-list{
+  display: inline-block;
+  justify-items: center;  
+  color: #FEF2BF;
+}
+
+.rule-list li{
+  margin-bottom: 2%;
+  font-family: "Electrolize", sans-serif;
+  font-size: 1.5rem;
+}
+
+.about-game{
+  font-family: "Electrolize", sans-serif;
+  font-size: 1.5rem;
+  color: #FEF2BF;
+}
+
+.start {
+  font-size: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  border: 5px solid black;
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.start:hover {
+  background-color: rgba(128, 0, 128, 0.716);
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
